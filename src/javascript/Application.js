@@ -117,7 +117,7 @@ export default class Application
 
         this.time.on('tick', () =>
         {
-            if(this.world && this.world.car)
+            if(this.world && this.world.car )
             {
                 this.camera.target.x = this.world.car.chassis.object.position.x
                 this.camera.target.y = this.world.car.chassis.object.position.y
